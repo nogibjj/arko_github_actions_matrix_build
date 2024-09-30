@@ -3,9 +3,10 @@
 [![Lint](https://github.com/nogibjj/arko_individual_project_1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/arko_individual_project_1/actions/workflows/lint.yml)
 [![Test](https://github.com/nogibjj/arko_individual_project_1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/arko_individual_project_1/actions/workflows/test.yml)
 
-# Descriptive Statistics and Runtime Comparison using Polars and Pandas
+# Descriptive Statistics and Runtime Comparison using Polars and Pandas with CICD tests across multiple Python versions.
 
 This project is to demonstrate how to perform statistical analysis using pandas and polars. We then compare runtimes of both the approaches.
+Then for CICD, we perform tests to evaluate compatibility across different python versions.
 
 ## Project Function
 - A `.ipynb` notebook each for polars and pandas analysis
@@ -22,6 +23,8 @@ This project is to demonstrate how to perform statistical analysis using pandas 
 - `Makefile`: Defines common tasks like installing dependencies, running tests, linting, and running docker.
 - `.devcontainer/`: Contains `Dockerfile` and VS Code configuration.
 - `.github/workflows/`: Contians CI/CD workflows for GitHub.
+  ![image](https://github.com/user-attachments/assets/d3c7afb0-a32f-4c62-93d9-aa905d808f7f)
+
 
 ## Project Setup
 ### 1. Clone the Repository
