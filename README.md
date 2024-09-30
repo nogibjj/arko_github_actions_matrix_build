@@ -3,7 +3,7 @@
 [![Lint](https://github.com/nogibjj/arko_individual_project_1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/arko_individual_project_1/actions/workflows/lint.yml)
 [![Test](https://github.com/nogibjj/arko_individual_project_1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/arko_individual_project_1/actions/workflows/test.yml)
 
-# Descriptive Statistics and Runtime Comparison using Polars and Pandas with CICD tests across multiple Python versions.
+# Descriptive Statistics and Runtime Comparison using Polars and Pandas with CICD Build Matrix.
 
 This project is to demonstrate how to perform statistical analysis using pandas and polars. We then compare runtimes of both the approaches.
 Then for CICD, we perform tests to evaluate compatibility across different python versions.
